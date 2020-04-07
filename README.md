@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<!doctype html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+ <title>MEDIA QUERIES</title>
+ <style>
+ h1
+ {
+ margin-bottom:15px
+ }
+ p {border:1px solid black;
+ 	margin-bottom: 15px
+ }
+ #p1 {
+ 	background-color: #FF0000;
+ 	width:300px;
+ 	height:300px;
 
-You can use the [editor on GitHub](https://github.com/Amrutha2322/evaluv/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ }
+#p2{background-color:#39ff14 ;
+ 	width:70px;
+ 	height:70px;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+}
+@media (min-width: 1200px){
+	#p1{width:80%;
+	}
+	#p2{width:150px; 
+		height:150px;
+	}
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Amrutha2322/evaluv/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</style>
+</head>
+<body>
+<h1>MEDIA QUERIES</h1>
+<p id="p1"></p>
+<p id="p2"></p>
+</body>
+</html>
